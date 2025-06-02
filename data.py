@@ -13,3 +13,5 @@ user_body = {
 kit_body = {
     "name": "kit prueba",
 }
+
+kit_body_empty = {}

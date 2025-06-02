@@ -30,4 +30,3 @@ def body_kit_modificable(name):
 
 def create_kit(name):
     return post_new_kit(body_kit_modificable(name),post_new_user_token())
-

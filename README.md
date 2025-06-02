@@ -13,4 +13,4 @@ Como reproducir las pruebas:
 4. Instalar pytest en la terminal utilizando el comando pip install pytest
 5. Verificar que el interpeter es el que tiene instalado pytest
 6. correr el test en la terminal utilizando el comando: pytest create_kit_name_kit_test.py
-7.
+7. 

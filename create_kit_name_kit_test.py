@@ -37,7 +37,8 @@ def test_create_name_with_numbers_allowed ():
     positive_assert("123")
 
 def test_create_kit_without_name():
-    negative_assert(data.kit_body_empty)
+    response = sender_stand_request.create_kit_with_empty_body()
+    assert response.status_code == 400
 
 def test_create_name_with_diferent_parameter():
     negative_assert( 123 )
